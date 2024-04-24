@@ -13,7 +13,8 @@ int main()
 
 	/*
 	 * Prepare a vector to be processed by the build method
-	 * This could be a bit annoying for manipulating strings, but 
+	 * This could be a bit annoying for manipulating strings,
+	 * but will prove useful for handling other data types.
 	 */
 	vector<char> patv(pat.length(), 0);
 	for (int i = 0; i < pat.length(); i++)
