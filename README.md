@@ -11,7 +11,7 @@ Suffix link values are stored in `f`.
 If `f[x]` equals `y`, `p[:x]` both begins with and ends with `p[:y]`.
 
 Refer example.cpp to see how it works.
-```
+```cpp
 #include <iostream>
 #include "knuth-morris-pratt-dynamic.hpp"
 
